@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #222;
+    background: linear-gradient(135deg, #000000, #604c43);
+    color: #ffffff;
+    margin: 00px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.mainWeat {
+    text-align: center;
+}
+
+.card {
+    width: 90%;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search input {
+    border: none;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: none;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather {
+    margin-top: 0px auto;
+    /* border: 2px solid black; */
+    box-shadow: 7px 5px 25px black;
+    border-radius: 50px;
+
+    background: #000000;
+    background: linear-gradient(135deg, #514d40, #000000);
+    color: #ffffff;
+    margin: 70px auto 0;
+    border-radius: 30px;
+    padding: 40px 35px;
+    /* background-repeat: no-repeat; */
+}
+
+.error {
+    text-align: left;
+    display: none;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
